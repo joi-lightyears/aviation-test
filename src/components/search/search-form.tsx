@@ -195,7 +195,7 @@ export function SearchForm({ initialData }: SearchFormProps) {
               id="roundTrip"
               checked={roundTrip}
               onCheckedChange={(checked) => setRoundTrip(checked === true)}
-              className="border-[#65686F] data-[state=checked]:bg-[#65686F] data-[state=checked]:text-white"
+              className="border-gray-200 data-[state=checked]:bg-[#19C0FF] data-[state=checked]:border-[#19C0FF] data-[state=checked]:text-white"
             />
             <label
               htmlFor="roundTrip"
